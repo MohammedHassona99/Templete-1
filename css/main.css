@@ -1,0 +1,390 @@
+body{
+  height: 6000px;
+}
+/* Star Framework */
+.container{
+  width: 1200px;
+  margin: auto;
+}
+.clearfix{
+  clear: both;
+}
+/* End Framework */
+
+/* Star Header */
+header .slider{
+  background-image: url('../img/developer.png');
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header .slider .info{
+  padding-top: 200px;
+  text-align: center;
+  color: #FFF;
+}
+header .slider .info h2{
+  font-size: 50px;
+  font-weight: bold;
+  border-top: 3px solid #FFF;
+  border-bottom: 3px solid #FFF;
+  margin: 0 auto;
+  width: 600px;
+}
+header .slider .info button{
+  margin-top: 20px;
+  background: none;
+  color: #FFF;
+  padding: 10px 30px;
+  border: 3px solid #FFF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav{
+  background-color: #252F31;
+  overflow: hidden;
+  color: #FFF;
+}
+nav h3{
+  float: left;
+}
+nav h3 span{
+  color: #2ecc71;
+}
+nav ul{
+  list-style: none;
+  float: right;
+  overflow: hidden;
+  padding-left: 0;
+}
+nav ul li{
+  float: left;
+  padding: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #FFF;
+}
+nav ul li a:hover,
+nav ul li .active a{
+  color: #2ecc71;
+}
+
+/* end Header */
+
+/* Star Feature */
+.feature{
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.feature .hobbies{
+  float: left;
+  width: 33.33333%;
+}
+.feature .hobbies p{
+  color: #888;
+  line-height: 1.7;
+}
+/* End Feature */
+
+/* Star About me */
+.about-me{
+  overflow: hidden;
+  background-color: #F2F2F2;
+}
+.about-me .img-me{
+  float: left;
+  width: 40%;
+}
+.about-me .img-me img{
+  width: 100%;
+}
+.about-me .intro{
+  float: left;
+  width: 60%;
+}
+.about-me .intro h2{
+  margin: 25px 0 20px 40px;
+}
+.about-me .intro > p {
+  margin: 0 0 10px 40px;
+}
+.about-me .intro > p:last-of-type{
+  margin-top: 25px;
+}
+.about-me .intro p{
+  line-height: 1.6;
+  color: #666;
+}
+.about-me .intro .my-hoppy{
+  overflow: hidden;
+  margin: 15px 0 0 40px;
+}
+.about-me .intro .my-hoppy .content{
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  min-height: 100px;
+}
+.about-me .intro .my-hoppy .content .icon{
+  float: left;
+  width: 12%;
+  margin-right: 10%;
+}
+.about-me .intro .my-hoppy .content .icon i{
+  margin-top: 25px;
+  font-size: 40px;
+}
+.about-me .intro .my-hoppy .content .text{
+  float: left;
+  width: 78%;
+}
+.about-me .intro .my-hoppy .content .text h3{
+  margin-bottom: 5px;
+}
+.about-me .intro .my-hoppy .content .text p{
+  margin-top: 0;
+  padding-right: 7px;
+}
+/* End About me */
+
+/* Star My Skills */
+.my-skills{
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.my-skills .info-skill,
+.my-skills .my-progress{
+  float: left;
+  width: 50%;
+}
+.my-skills .info-skill h2{
+  color: #555;
+  margin: 20px 0 20px 40px;
+}
+.my-skills .info-skill p{
+  color: #666;
+  line-height: 1.6;
+  margin: 0 0 10px 40px;
+}
+.my-skills .info-skill p:last-of-type{
+  margin-top: 25px;
+}
+.my-skills .info-skill button{
+  background: none;
+  padding: 10px 30px;
+  color: #2ecc71;
+  border: 3px solid #2ecc71;
+  margin-top: 20px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.my-skills .my-progress .technology{
+  margin-left: 40px;
+}
+.my-skills .my-progress .technology h3{
+  color: #555;
+}
+.my-skills .my-progress .technology div{
+  background-color: #F2F2F2;
+  height: 25px;
+}
+.my-skills .my-progress .technology span{
+  background-color: #2ecc71;
+  height: 25px;
+  display: block;
+  text-align: right;
+  color: #FFF;
+  line-height: 25px;
+  font-weight: bold;
+}
+/* End My Skills */
+
+/* Star Resume */
+.resume{
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.resume h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.resume p{
+  color: #6A6E71;
+  line-height: 1.6;
+}
+.resume button{
+  background: none;
+  padding: 10px 30px;
+  color: #2ecc71;
+  border: 3px solid #2ecc71;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* End Resume */
+
+/* Star Education */
+.my-education{
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.my-education .edue{
+  float: left;
+  width: 50%;
+  margin-right: 5%;
+}
+.my-education .edue h2{
+  margin: 25px 0 20px 40px;
+  color: #555;
+}
+.my-education .edue p{
+  margin: 0 0 10px 40px;
+  line-height: 1.7;
+  color: #888;
+}
+.my-education .edue p:last-of-type{
+  margin-top: 25px;
+}
+.my-education .exp{
+  float: left;
+  width: 45%;
+}
+.my-education hr{
+  background-color: #F2F2F2;
+  border: 0;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.my-education .exp .certificate h3{
+  margin-top: 80px;
+  margin-bottom: 8px;
+}
+.my-education .exp .certificate span{
+  display: block;
+  margin-bottom: 8px;
+}
+.my-education .exp .certificate span:first-of-type{
+  color: #555;
+}
+.my-education .exp .certificate p{
+  color: #888;
+  line-height: 1.7;
+}
+.my-education .exp .certificate span:last-of-type{
+  display: inline-block;
+  background-color: #2ecc71;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+/* End Education */
+
+/* Star testimonials */
+.testimonials{
+  background-color: #F2F2F2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.testimonials blockquote{
+  font-style: italic;
+  font-size: 22px;
+  color: #888;
+  font-weight: bold;
+  line-height: 1.7;
+}
+.testimonials h3{
+  color: #666;
+  margin-top: 30px;
+}
+.testimonials ul{
+  list-style: none;
+  text-align: center;
+  padding-left: 0; 
+}
+.testimonials ul li{
+  display: inline-block;
+  border: 1px  solid #2ecc71;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.testimonials ul li:hover{
+  background-color: #2ecc71;
+}
+/* End testimonials */
+
+/* Star Portfolio */
+
+.portfolio{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+  text-align: center;
+}
+.portfolio h2{
+  text-transform: uppercase;
+  color: #666;
+}
+.portfolio p{
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.portfolio .my-work{
+  overflow: hidden;
+}
+.portfolio .my-work > div{
+  float: left;
+  width: 33.33333%;
+  margin-bottom: 10px;
+}
+.portfolio .my-work > div img{
+  width: 92%;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  box-shadow: 10px 10px 15px #CCC;
+  margin: 10px;
+  padding: 3px;
+}
+/* End Portfolio */
+
+/* Star Contact me */
+.contact-me{
+  overflow: hidden;
+  background-color: #252F31;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.contact-me .information{
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+.contact-me .information h2{
+  color: #FFF;
+  margin-left: 40px;
+}
+.contact-me .information p{
+  margin: 10px 10px 20px 40px;
+  line-height: 1.7;
+  color: #888;
+}
+.contact-me .information span{
+  display: block;
+  margin: 0 10px 20px 40px;
+}
+.contact-me .form{
+  float: left;
+}
+/* End Contact me */
