@@ -9,6 +9,9 @@ body{
 .clearfix{
   clear: both;
 }
+button , input[type='submit']:hover{
+  cursor: pointer;
+}
 /* End Framework */
 
 /* Star Header */
@@ -386,5 +389,57 @@ nav ul li .active a{
 }
 .contact-me .form{
   float: left;
+  width: 50%;
+}
+.contact-me .form form label{
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  color: #CCC;
+}
+.contact-me .form form input[type='text']{
+  width: 80%;
+  margin-bottom: 20px;
+  background-color: #555;
+  color: #FFF;
+  border: 0;
+  padding: 10px;
+}
+.contact-me .form form textarea{
+  height: 400px;
+  width: 480px;
+  background-color: #555;
+  display: block;
+  border: 0;
+  margin-bottom: 20px;
+}
+.contact-me .form form input[type='submit']{
+  background-color: #191E22;
+  padding: 10px 20px;
+  border: 0;
+  color: #FFF;
 }
 /* End Contact me */
+/* Star Footer */
+footer{
+  overflow: hidden;
+  background-color: #191E22;
+  color: #6A6E71;
+  padding: 20px 0;
+}
+footer span{
+  float: left;
+}
+footer ul{
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+
+}
+footer ul li{
+  display: inline-block;
+  font-size: 22px;
+  padding-left: 5px;
+}
+/* End Footer */
